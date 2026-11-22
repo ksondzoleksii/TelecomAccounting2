@@ -4,6 +4,7 @@ public class Subscriber
 {
     public Guid Id { get; set; } = Guid.NewGuid();
     public string FullName { get; set; } = string.Empty;
+    // Валідація номера телефону
     public string PhoneNumber { get; set; } = string.Empty;
     public string IpAddress { get; set; } = string.Empty;
     public bool IsActive { get; set; } = true;
